@@ -1,0 +1,12 @@
+form input + small {
+    display: none;
+}
+
+.is-invalid {
+  border-color: #dc3545;
+}
+
+.is-invalid + small {
+    display: block;
+    color: #dc3545;
+}
